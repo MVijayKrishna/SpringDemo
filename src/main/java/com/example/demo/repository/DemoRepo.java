@@ -14,9 +14,12 @@ public class DemoRepo {
 	@Value("${Name}")
 	private String Name;
 
+	@Value("${Company}")
+	private String Company;
+
 	public String hello() {
 
-		return Name + " age is = " + Age + " and salary is =" + " " + Salary;
+		return Name + " age is = " + Age + " and salary is =" + " " + Salary + " working in  " + Company;
 	}
 
 }
