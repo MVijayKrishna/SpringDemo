@@ -18,8 +18,11 @@ public class DemoRepo {
 	private String Company;
 
 	public String hello() {
+		int intAge = Integer.parseInt(Age);
+		if (intAge <= 30)
+			System.out.println(Name + "  is not eligible for " + Company);
 
-		return Name + " age is = " + Age + " and salary is =" + " " + Salary + " working in  " + Company;
+		return Name + " You can't apply the job for Google becouse of your age shoud be >30";
 	}
 
 }
