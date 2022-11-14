@@ -22,7 +22,7 @@ public class DemoRepo {
 		if (intAge <= 30)
 			System.out.println(Name + "  is not eligible for " + Company);
 
-		return Name + " You can't apply the job for Google becouse of your age shoud be >30";
+		return Name + " You can't apply the job for Google becouse of your age shoud be >18";
 	}
 
 }
